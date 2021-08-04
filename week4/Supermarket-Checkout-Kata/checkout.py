@@ -1,32 +1,4 @@
 
-# class Checkout(object):
-    
-#     def __init__(self):
-#         self.items = list()
-#         self.total = 0
-
-#     def add(self, product, price):
-#         self.items.append({"product": str(product), "price": int(price)})
-    
-#     def cal_total(self, product):
-#         self.total = 0
-#         for product in self.items:
-#             self.total += self.items[product]['price']
-#         return self.totaL
-    
-#     # def discount(self):
-#     #     if type(discount) != int:
-
-
-# market = Checkout()
-
-# # adding items with pricing to the array
-# market.add("peanut butter", 6)
-# market.add("orange", 1)
-# market.add("milk", 3)
-# print(market.items)
-# print(market.cal_total)
-
 class Checkout:
     class Discount:
         def __init__(self, quantity, price):
