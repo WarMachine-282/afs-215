@@ -1,4 +1,4 @@
-
+# used the linkdin course video content to finish to assignment
 class Checkout:
     class Discount:
         def __init__(self, quantity, price):
