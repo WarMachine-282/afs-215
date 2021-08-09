@@ -1,0 +1,23 @@
+{
+  "name": "fizzbuzzkata",
+  "version": "1.0.0",
+  "description": "1.) In your Week 5 folder, create a folder called ‘fizzbuzzkata’ for this assignment.\r 2.) Create a Fizzbuzzkata.js file\r 3.) The Fizzbuzzkata.js file should be able to achieve following tests\r -Can I call FizzBuzz\r -Get “1” when I pass in 1\r -Get “2” when I pass in 2\r 4.) In the Fizzbuzzkata.js file, write a code that should achieve above tests through failing test, to all the way to refractor",
+  "main": "Fizzbuzzkata.js",
+  "dependencies": {
+    "jest": "^27.0.6",
+    "node": "^16.6.1",
+    "node-modules": "^1.0.1",
+    "npm": "^7.20.5",
+    "pytest": "^1.0.0"
+  },
+  "devDependencies": {
+    "chai": "^4.3.4",
+    "mocha": "^9.0.3"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
